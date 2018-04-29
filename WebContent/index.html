@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz for selecting counselling field</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Choose the options for identifying your counselling field!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+
+
+<p class = "questions">1.How well do you know about your Goal?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question1" value = "Poor"> Poor<br>
+
+<p class = "questions">2.What Progress are you making in your Goal?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question2" value = "Poor"> Poor <br>
+
+<p class = "questions">3.How much do you believe that you can make your Goal a into reality?Select you scale given below-</p>
+<input type = "radio" id = "mc" name = "question3" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question3" value = "Poor"> Poor<br>
+
+<p class = "questions">4.How often do you feel?Select a scale given below-</p>
+<input type = "radio" id = "mc" name = "question4" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question4" value = "Poor"> Poor<br>
+
+<p class = "questions">5.Do you have problems with sleeping?Select a scale given below-</p>
+<input type = "radio" id = "mc" name = "question5" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question5" value = "Poor"> Poor<br>
+
+<p class = "questions">6.How much interest do you feel in doing daily activities?Select a scale given below-</p>
+<input type = "radio" id = "mc" name = "question6" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question6" value = "Poor"> Poor<br>
+
+<p class = "questions">7.What is your attitude towards public speaking/presentation?</p>
+<input type = "radio" id = "mc" name = "question7" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question7" value = "Poor"> Poor<br>
+
+<p class = "questions">8.Do you feel you are inferior to others in some ways?Select a scale given below-</p>
+<input type = "radio" id = "mc" name = "question8" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question8" value = "Poor"> Poor<br>
+
+<p class = "questions">9.Select your confident scale given below-</p>
+<input type = "radio" id = "mc" name = "question9" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question9" value = "Poor"> Poor<br>
+
+<p class = "questions"> 10.Are you satisfied with the person you've turned out to be so far?Select a scale given below-</p>
+<input type = "radio" id = "mc" name = "question10" value = "Good"> Good<br>
+<input type = "radio" id = "mc" name = "question310 value = "Poor"> Poor<br>
+
+
+<input id = "button" type = "button" value = "DONE!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture"> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Click the button for your consultant's details</p>
+
+<button onclick="myFunction()">Click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = "Go to the page Consultant's Details!";
+    var result = str.link("teachers.jsp");
+    document.getElementById("demo").innerHTML = result;
+}
+</script>
+</div>
+</html>
+
+</body>
+
+
+
